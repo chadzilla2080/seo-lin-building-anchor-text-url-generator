@@ -37,8 +37,12 @@ To run this script, you'll need to have access to a BASH Shell or Anaconda Pytho
    3. The output of the file will be csv and you should put this in the same path as where the script is so you can find it. 
    
    
-  ############################################### QUESTIONS AND CONCERNS ##################################################
+  ####################################### QUESTIONS AND CONCERNS ###########################################
   
   Name: Chad Buie, SEO Analyst
+  <br />
+  <br />
   Contact: chadbuie@gmail.com
+  <br />
+  <br />
   Phone: 571.274.9196
