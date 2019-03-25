@@ -19,13 +19,13 @@ To run this script, you'll need to have access to a BASH Shell or Anaconda Pytho
 
 2. Anaconda 
 
-  a. https://docs.anaconda.com/anaconda/install/
+   a. https://docs.anaconda.com/anaconda/install/
   
-  b. Follow the instructions for your operating system
+   b. Follow the instructions for your operating system
   
-  c. https://docs.anaconda.com/anaconda/install/windows/
+   c. https://docs.anaconda.com/anaconda/install/windows/
   
-  d. https://docs.anaconda.com/anaconda/install/linux/
+   d. https://docs.anaconda.com/anaconda/install/linux/
   
    Once you get Anaconda Installed, you have a few options:
    
@@ -33,9 +33,9 @@ To run this script, you'll need to have access to a BASH Shell or Anaconda Pytho
    
    2. You can fire up "anaconda shell" and navigate to where you've install the script:
    
-       a. python link.building.seo.anchor.text.url.generator.py
+      a. python link.building.seo.anchor.text.url.generator.py
        
-       b. python3 link.building.seo.anchor.text.url.generator.py
+      b. python3 link.building.seo.anchor.text.url.generator.py
        
    
    3. The output of the file will be csv and you should put this in the same path as where the script is so you can find it. 
