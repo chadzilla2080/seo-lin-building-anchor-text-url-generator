@@ -11,16 +11,20 @@ To use this script, you'll need to have Python 2.7 or above. You'll also need to
 To run this script, you'll need to have access to a BASH Shell or Anaconda Python Env
 
 1. BASH
+
   a. You need to have a linux box and you can just bring up terminal and fire up the scripy with:
+  
   b. $ python link.building.seo.anchor.text.url.generator.py
   
 
 2. Anaconda 
 
   a. https://docs.anaconda.com/anaconda/install/
+  
   b. Follow the instructions for your operating system
   
   c. https://docs.anaconda.com/anaconda/install/windows/
+  
   d. https://docs.anaconda.com/anaconda/install/linux/
   
    Once you get Anaconda Installed, you have a few options:
