@@ -12,9 +12,9 @@ To run this script, you'll need to have access to a BASH Shell or Anaconda Pytho
 
 1. BASH
 
-  a. You need to have a linux box and you can just bring up terminal and fire up the scripy with:
+   a. You need to have a linux box and you can just bring up terminal and fire up the scripy with:
   
-  b. $ python link.building.seo.anchor.text.url.generator.py
+   b. $ python link.building.seo.anchor.text.url.generator.py
   
 
 2. Anaconda 
