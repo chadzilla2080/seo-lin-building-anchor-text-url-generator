@@ -1,7 +1,7 @@
 import re
 import csv
 
-# Load Your Keywords Text File From http://www.semantic.IO
+# Load Your Keywords Text File From https://semantic.io
 filename = r'C:\Users\googl\Desktop\Python\3a - Scripts\2a - Natural Language Processing\1a - Keyword Generator\autoparts.txt'
 
 # Open The File
