@@ -73,6 +73,16 @@ print(type(link_friendly_list))
 # Debug, Verify Your Anchors
 print(anchors)
 
+# Have To Edit The Old Anchor Variable and Replace Those Hyphens With Spaces For Key In 
+# The Dictionary Pair
+anchors = re.sub(r"-", " ", anchors)
+
+# Split Anchors To Add To a New List For Exporting and Building The Dictionary Pair
+anchors = anchors.split('\n')
+
+# Debug, Verify Your Anchors, Should Be In a List This Time
+print(anchors)
+
 # Export and Build Dictionary Pair
 final_export = dict(zip(anchors, keyword_list))
 
