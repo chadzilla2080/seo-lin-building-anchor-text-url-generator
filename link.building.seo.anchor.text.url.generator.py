@@ -2,7 +2,7 @@ import re
 import csv
 
 # Load Your Keywords Text File From https://semantic.io
-filename = r'C:\Users\googl\Desktop\Python\3a - Scripts\2a - Natural Language Processing\1a - Keyword Generator\autoparts.txt'
+filename = r'Desktop/Python/autoparts.txt'
 
 # Open The File
 with open(filename) as f:
@@ -19,17 +19,26 @@ print(type(file))
 # print(file)
 
 # Little Regex Replace Spaces With Urls
-file = re.sub(r"\n ", ",", file)
+anchors = re.sub(r"\n ", ",", file)
 
 # Debug Out
-# print(file)
+# print(anchors)
 
-keyword_list = file
+# Start Creating a New List
+keyword_list = anchors
 
+# Make The List By Splitting Srtings With New Line
 keyword_list = keyword_list.split('\n')
 
 # Debug 
-# print(keyword_list)
+print(keyword_list)
+
+# Little Regex Replace Hyphens With Spaces
+# Here We're Building The Key Part of The Dictionary, You Know Key:Value, Here Value Being Achor Text and Key Full URL
+anchors = re.sub(r"-", " ", anchors)
+
+# Debug
+print(anchors)
 
 # Build URL
 for i in range(len(keyword_list)):
@@ -37,23 +46,37 @@ for i in range(len(keyword_list)):
 
 print(keyword_list)
 
-# Little Regex Replace Spaces With Urls
-file = re.sub(r"-", " ", file)
+# Little Regex Replace Spaces With Hyphens
+anchors = re.sub(r" ", "-", anchors)
 
-anchors = file
+#Debug
+print(anchors)
+
+link_friendly_list = ''.join(anchors)
+
+# Debug, Check The List Output
+print(link_friendly_list)
+
+# Make A List, By Splitting With New Line
+link_friendly_list = link_friendly_list.split('\n')
+
+# Build URL
+for i in range(len(link_friendly_list)):
+    link_friendly_list[i] = "https://chadsautoparts.com/" + link_friendly_list[i] + "/"
+
+print(link_friendly_list)
 
 # Test The Data Type
 """ <class 'str'> """
-print(type(file))
+print(type(link_friendly_list))
 
-# 
-anchors = anchors.split('\n')
+# Debug, Verify Your Anchors
 print(anchors)
 
-# 
+# Export and Build Dictionary Pair
 final_export = dict(zip(anchors, keyword_list))
 
-#
+# Debug, Inspect
 print(final_export)
 
 # Write To File, Name It Whatever You Want
